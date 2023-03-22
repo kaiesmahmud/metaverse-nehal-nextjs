@@ -1,9 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import styles from "@/styles";
-import { footerVariants } from "@/utils/motion";
-import { socials } from '@/constants';
+import styles from '../styles/index';
+import { footerVariants } from '../utils/motion';
+import { socials } from '../constants';
 
 const Footer = () => (
   <motion.footer
