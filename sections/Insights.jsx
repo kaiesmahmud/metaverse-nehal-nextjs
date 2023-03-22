@@ -8,8 +8,8 @@ import { insights } from '@/constants';
 
 const Insights = () => (
   <section
-  className={`${styles.paddings} relative z-10`}
->
+    className={`${styles.paddings} relative z-10`}
+  >
     <motion.div
       variants={staggerContainer}
       initial="hidden"
